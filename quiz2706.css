@@ -1,0 +1,45 @@
+div{
+	text-align: center;
+}
+body{
+	background-color: #bdd4e7;
+	background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+#quizContainer{
+	background: white;
+	border-radius: 5px;
+
+	width: 600px;
+}
+
+ul{
+	list-style: none;
+	font-family: 'Arima', cursive;
+}
+
+button{
+	background-color: white;
+	border: none;
+	color: black;
+	display: block;
+	width: 100%;
+	padding: 10px;
+	font-family: 'PT Serif', serif;
+	font-size: 14pt;
+	font-weight: bold;
+	font-style: italic;
+
+}
+
+button:hover{
+	background-color: plum;
+}
+
+#pergunta{
+	font-family: 'PT Serif', serif;
+}
